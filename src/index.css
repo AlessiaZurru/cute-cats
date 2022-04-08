@@ -76,6 +76,7 @@ footer {
   width: 100%;
   align-items: center;
   display: flex;
+  position: fixed;
 }
 
 footer > small {
