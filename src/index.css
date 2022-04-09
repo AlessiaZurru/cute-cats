@@ -17,6 +17,9 @@ nav {
   justify-content: center;
   background-color: antiquewhite;
 }
+.nav--logo {
+  height: 30px;
+}
 .nav--title {
   margin: 0;
   font-weight: 900;
