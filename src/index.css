@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 body {
   margin: 0;
@@ -14,7 +15,7 @@ nav {
   display: flex;
   box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
   align-items: center;
-  justify-content: center;
+
   background-color: antiquewhite;
 }
 .nav--logo {
@@ -25,6 +26,35 @@ nav {
   font-weight: 900;
   font-size: 40px;
 }
+.nav--items {
+  display: flex;
+  gap: 10px;
+  margin-left: auto;
+  margin-right: 10px;
+}
+.nav--items--contact {
+  padding: 5px;
+}
+.nav--items--contact:hover {
+  border-radius: 10px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+.nav--items--aboutus {
+  padding: 5px;
+}
+.nav--items--aboutus:hover {
+  border-radius: 10px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.nav--items--ourcats {
+  padding: 5px;
+}
+.nav--items--ourcats:hover {
+  border-radius: 10px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
 .contacts {
   margin-top: 50px;
   display: flex;
